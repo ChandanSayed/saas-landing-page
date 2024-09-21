@@ -1,3 +1,4 @@
+import Download from "./sections/Download";
 import FAQ from "./sections/FAQ";
 import Features from "./sections/Features";
 import Header from "./sections/Header";
@@ -15,6 +16,7 @@ function App() {
         <Pricing />
         <FAQ />
         <Testimonials />
+        <Download />
       </main>
     </>
   );
