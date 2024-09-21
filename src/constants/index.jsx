@@ -376,24 +376,24 @@ export const socials = [
     id: "0",
     title: "x",
     icon: "/images/socials/x.svg",
-    url: "#"
+    url: "https://twitter.com/Sayed_Priyo"
   },
   {
     id: "1",
     title: "Threads",
     icon: "/images/socials/threads.svg",
-    url: "#"
+    url: "https://www.threads.net/@chandansayed"
   },
   {
     id: "2",
     title: "Instagram",
     icon: "/images/socials/instagram.svg",
-    url: "#"
+    url: "https://www.instagram.com/chandansayed/"
   },
   {
     id: "3",
     title: "Discord",
     icon: "/images/socials/discord.svg",
-    url: "#"
+    url: "https://discord.com/channels/@chandansayed"
   }
 ];
