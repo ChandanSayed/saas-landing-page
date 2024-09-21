@@ -62,16 +62,9 @@ const Header = () => {
                     offset={-250}
                     spy
                     smooth
-                    className={
-                      "max-lg:hidden transition-transform duration-500 cursor-pointer"
-                    }
+                    className={"max-lg:hidden transition-transform duration-500 cursor-pointer"}
                   >
-                    <img
-                      src="/images/xora.svg"
-                      width={160}
-                      height={55}
-                      alt="logo"
-                    />
+                    <img src="/images/xora.svg" width={160} height={55} alt="logo" />
                   </LinkScroll>
                 </li>
 
@@ -104,7 +97,7 @@ const Header = () => {
 
         <button
           className="lg:hidden z-2 size-10 border-2 border-s4/25 rounded-full flex justify-center items-center"
-          onClick={() => setIsOpen((prevState) => !prevState)}
+          onClick={() => setIsOpen(prevState => !prevState)}
         >
           <img
             src={`/images/${isOpen ? "close" : "magic"}.svg`}
